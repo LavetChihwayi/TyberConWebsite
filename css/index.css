@@ -1,0 +1,315 @@
+body {
+  background:;
+}
+/*
+.carousel{
+  background-color: block;
+}
+.carousel-indicators li{
+  background-color: red;
+}
+.carousel-indicators{
+  position:abusolute;
+  left:50%;
+  align-items: center;
+  width:auto;
+  background-color: red;
+}
+/* nav bar*/
+.navbar {
+  font-family: Montserrat, sans-serif;
+}
+.nav-tabs li a {
+  color: #777;
+}
+.fixted{
+	position:fixed;
+	float:left;
+	top:-30px;
+	padding:0;
+	margin-left:-17px;
+	width:180px;
+	height:147px;
+}
+.fixted2{
+	margin-left:150px;
+	float:right;
+	top:-20px;
+}
+.padding{
+	padding:0 0 0 100px;
+}
+
+/* Add a dark background color with a little bit see-through */
+.navbar {
+  margin-bottom: 0;
+  background-color:rgb(14, 14, 59);
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 1;
+}
+/* nav bar*/
+
+.container {
+  padding: 0;
+}
+.container2 {
+  padding: 20px 20px;
+}
+/*
+.person {
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+  width: 80%;
+  height: 80%;
+  opacity: 0.7;
+}
+.person:hover {
+  border-color: #f1f1f1;
+}
+.carousel-inner img {
+ /* -webkit-filter: grayscale(90%);
+ /* filter: grayscale(90%); /* make all photos black and white 
+  width: 100%; /* Set width to 100% 
+  margin: auto;
+}
+#blac{
+  color: black;
+  border: 2px;
+}
+.carousel-caption h3 {
+  color: #ddd !important;
+}
+/* background 1*/
+.bg{
+  background: #2d2d30;
+}
+.bg-1 {
+  background: #000;
+  color: #eee;
+}
+.bg-2 {
+  background: #eee;
+  
+}
+.c-blue{
+  color:rgb(2, 2, 48);
+}
+.bg-1 h3 {color: #fff;}
+.bg-1 p {font-style: italic;}
+
+
+.left{
+  text-align: "left";
+}
+/* background 1*/
+
+
+/* Remove rounded borders from list */
+.list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Remove border and add padding to thumbnails */
+.thumbnail {
+  padding: 30px 0 15px 0;
+  border: none;
+  border-radius: 0;
+  
+}
+
+.thumbnail p {
+  margin-top: 15px;
+  color: #555;
+}
+
+/* Black buttons with extra padding and without rounded borders */
+.btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: .2s;
+}
+
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+
+
+.color-gray{
+	color:gray;
+}
+.background-gray{
+	background:gray;
+}
+.background-darkblue{
+	background: #2d2d30;
+}
+/* Add a gray color to all navbar links*/ 
+.navbar li a, .navbar .navbar-brand {
+  /* color: #d5d5d5 !important; */
+  color:gray;
+}
+.navbar-brand{
+	font-weight:1000;
+	font-size:20px;
+	letter-spacing: 1px;
+}
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+/* Dropdown 
+.open .dropdown-toggle {
+  color: #fff ;
+  background-color: #555 !important;
+}
+/* Dropdown links */
+.dropdown-menu li a {
+  color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+  background-color: rgb(132, 197, 240) !important;
+}
+
+
+
+
+
+/* Remove rounded borders on input fields */
+.form-control {
+  border-radius: 0;
+}
+
+/* Disable the ability to resize textareas */
+textarea {
+  resize: none;
+}
+
+@media screen and (max-width: 765px) {
+  .fixted{
+	position:fixed;
+	float:left;
+	top:-30px;
+	padding:0;
+	margin-left:0px;
+ }
+ .hid{
+		display:none;
+	}
+	#contact{
+		padding:10px;
+	}
+	
+}
+@media screen and (max-width: 682px) {
+  .fixted2{
+	  margin-bottom:10px;
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 0px ;
+  }
+}
+@media screen and (max-width: 534px) {
+  .container {
+    padding: 0px;
+  }
+  .tab-content{
+	padding:20px;
+	}
+	.navbar{
+		padding-bottom:10px;
+	}
+	.hid{
+		display:none;
+	}
+	.col-sm-4{
+		width:100%;
+	}
+	.carousel-inner{
+		margin-top:100px;
+	}
+}
+
+@media screen and (max-width: 440px) {
+  .fixted2{
+	  margin-bottom:20px;
+  }
+ 
+  
+}
+@media screen and (max-width: 413px) {
+  .fixted2{
+	  float:right;
+	  width:250px;
+	  margin:0 0 40px 110px;
+	  padding:0;
+	  font-size:2px;
+  }
+   .fixted{
+	position:fixed;
+	float:left;
+	top:-5px;
+	padding:0;
+	margin-left:0px;
+	margin-right:0px;
+	width:120px;
+	height:100px;
+	}
+	.flex{
+		display:flex;
+		
+	}
+  
+}
+@media screen and (max-width: 340px) {
+  .fixted2{
+	  margin-bottom:57px;
+	 
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
